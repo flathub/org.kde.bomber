@@ -20,8 +20,8 @@
             "sources": [ 
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/20.12.2/src/libkdegames-20.12.2.tar.xz",
-                    "sha256": "19d93fe25f1ea5173d5130b2d270038b26e6cc6f09238724f330d05fbe019439"
+                    "url": "https://download.kde.org/stable/release-service/20.12.3/src/libkdegames-20.12.3.tar.xz",
+                    "sha256": "401b919640eea95ec8feab1ce0914db2750fafc19893c424eed8ea37e5e216d1"
                 } 
             ]
         },
@@ -31,8 +31,8 @@
             "sources": [
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/20.12.2/src/bomber-20.12.2.tar.xz",
-                    "sha256": "5b22d4965451f8af78a93685c943843af228d1268109c8efe710ca64b3919e22"
+                    "url": "https://download.kde.org/stable/release-service/20.12.3/src/bomber-20.12.3.tar.xz",
+                    "sha256": "57279c0620b44b45bcd4153509cef698fff1e4ba4e0cb3ba760925c89144a00d"
                 },
                 {
                     "type": "patch",
