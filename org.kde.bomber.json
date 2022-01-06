@@ -20,8 +20,8 @@
             "sources": [ 
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/libkdegames-21.12.0.tar.xz",
-                    "sha256": "821b5e4fe68e8a3a5ab72caec240dd603baf100aae0e48658bba0aa6b5db9426"
+                    "url": "https://download.kde.org/stable/release-service/21.12.1/src/libkdegames-21.12.1.tar.xz",
+                    "sha256": "9e7152d377b916feba04dcdea723e8c52888f0ca24604fea8aa274539c3fad40"
                 } 
             ]
         },
@@ -31,8 +31,8 @@
             "sources": [
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/bomber-21.12.0.tar.xz",
-                    "sha256": "4c47a6fd361f59ed6b45f8ccde2e6479ae9a0dd1b0d7d3e442626cebca0293c7"
+                    "url": "https://download.kde.org/stable/release-service/21.12.1/src/bomber-21.12.1.tar.xz",
+                    "sha256": "50b5b858ec28d497d985dd1ab4fa33f7c96e48d8b41d910fde698285436dd5a3"
                 }               
             ]
         }
