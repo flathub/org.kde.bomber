@@ -34,6 +34,9 @@
         {
             "name": "bomber",
             "buildsystem": "cmake-ninja",
+            "post-install": [
+                "install -Dm644 32-apps-bomber.png ${FLATPAK_DEST}/share/icons/hicolor/32x32/apps/org.kde.bomber.png"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -45,7 +48,11 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/bomber-$version.tar.xz"
                     }
-                }
+                },
+                {
+                    "type": "file",
+                    "path": "32-apps-bomber.png"
+                }                
             ]
         }
     ]
