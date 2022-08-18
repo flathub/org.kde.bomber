@@ -20,8 +20,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/libkdegames-22.04.3.tar.xz",
-                    "sha256": "f6af5b98c6f5a4061b5124d04e5cf0c2cc9e21df93824559153d5565d541f845",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/libkdegames-22.08.0.tar.xz",
+                    "sha256": "ab05833df6b8de50e4b13e23f7dee9b8c7447ce08623b7680d110880f5b8ed80",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -34,17 +34,25 @@
         {
             "name": "bomber",
             "buildsystem": "cmake-ninja",
+            "post-install": [
+                "install -Dm644 32-apps-bomber.png ${FLATPAK_DEST}/share/icons/hicolor/32x32/apps/org.kde.bomber.png"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/bomber-22.04.3.tar.xz",
-                    "sha256": "eeed9c7b0eaaee6a41ff60dc0954063044b19a5bb682fef15c20a71058b9be33",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/bomber-22.08.0.tar.xz",
+                    "sha256": "4ae4662069cca64f5c6e77c9b97a54fd292f50f03cac7f3e5accb290472befe9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/bomber-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "file",
+                    "url": "https://invent.kde.org/games/bomber/-/raw/363c46564c15997b0066ac3d737b6adc958e6d1e/icons/32-apps-bomber.png",
+                    "sha256": "785cc87a467156e618abf6cbd12c4b1f5689fa01eb7070b7116d9da70bc6f653"
                 }
             ]
         }
