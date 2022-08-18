@@ -37,8 +37,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/bomber-22.04.2.tar.xz",
-                    "sha256": "bb7938c5f825bdee92bc0fde3225029894fbcd7e76c3809c5ce493e7e2b59b1d",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/bomber-22.08.0.tar.xz",
+                    "sha256": "4ae4662069cca64f5c6e77c9b97a54fd292f50f03cac7f3e5accb290472befe9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
