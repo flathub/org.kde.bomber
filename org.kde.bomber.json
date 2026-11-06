@@ -32,8 +32,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.08.2/src/libkdegames-26.08.2.tar.xz",
-                    "sha256": "64f5c1a0c79833057ff23fa246a93873ad65730c825c2ba46296741bc079d3ae",
+                    "url": "https://download.kde.org/stable/release-service/26.08.3/src/libkdegames-26.08.3.tar.xz",
+                    "sha256": "a543fe657621366b4cd9da7cba56a1844f66f8c9cc9fb616f08f0c5513f33d1a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -53,8 +53,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.08.2/src/bomber-26.08.2.tar.xz",
-                    "sha256": "d902525fcae153c261a34b8846e0a7b15fc589d8a6a3c8787660930da4ff7cfe",
+                    "url": "https://download.kde.org/stable/release-service/26.08.3/src/bomber-26.08.3.tar.xz",
+                    "sha256": "24cfd59c5c7335f53cab0d18d62296751ebe6e9229d32aed27360318cd835821",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
